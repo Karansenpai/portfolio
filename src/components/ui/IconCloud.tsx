@@ -18,6 +18,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
       alignItems: "center",
       width: "100%",
       paddingTop: 10,
+      
     },
   },
   options: {
