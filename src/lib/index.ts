@@ -41,9 +41,14 @@ export const whatido = [
   },
   {
     text: "who wants to explore every",
-  },  
+  },
   {
     text: "Tech Stack.",
     className: "text-blue-500 dark:text-blue-500",
   },
 ];
+
+
+export const project1Icons = {
+  iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+}
