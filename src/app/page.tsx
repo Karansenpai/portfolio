@@ -1,3 +1,4 @@
+import CodingProfile from "@/components/CodingProfile";
 import { Education } from "@/components/Education";
 import { Introduction } from "@/components/Introduction";
 import Projects from "@/components/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
         <WhatIdo/>
         <Education/>
         <Projects/>
+        <CodingProfile/>
       </main>
     </HeroHighlight>
   );

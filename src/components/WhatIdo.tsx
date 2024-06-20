@@ -7,7 +7,7 @@ import codingPerson from "../assets/lottie/codingPerson.json";
 import { FadeText } from "./ui/FadeText";
 const WhatIdo = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-center items-center relative">
+    <div className="flex flex-col lg:flex-row justify-center items-center relative ">
       <div className="flex flex-col flex-1 relative justify-center items-center">
         <div className="h-[600px] w-[600px] relative down-[4rem]">
           <DisplayLottie animationData={codingPerson} />
