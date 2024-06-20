@@ -22,12 +22,12 @@ export function Introduction() {
             />
           </div>
           <div className="text-3xl md:text-5xl font-semibold my-3 ">
-            <WordFadeIn className="text-4xl md:text-5xl" words="A passionate" />
+            <WordFadeIn className="text-4xl md:text-5xl capitalize " words="A passionate" />
           </div>
 
           <div className="flex flex-row items-center justify-center">
             <div className="text-2xl md:text-4xl font-semibold my-3 p-5">
-              <Highlight className="text-black dark:text-white p-4 md:p-3">
+              <Highlight className="text-black dark:text-white p-4 md:p-3 font-bold">
                 Full Stack
               </Highlight>
             </div>
