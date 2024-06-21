@@ -3,14 +3,14 @@ import React from "react";
 
 
 import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
-import GradualSpacing from "./ui/SparkleText";
+import SparkelText from "./ui/SparkleText";
 import { Card } from "./ui/Card";
 
 export function Education() {
   return (
     <div className="flex flex-col justify-center">
       <div>
-        <GradualSpacing
+        <SparkelText
           text="Education"
           className="text-6xl font-bold text-center capitalize "
         />
@@ -54,7 +54,7 @@ export function Education() {
 
 
 
-const AceternityIcon = () => {
+export const AceternityIcon = () => {
   return (
     <svg
       width="66"

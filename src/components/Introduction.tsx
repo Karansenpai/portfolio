@@ -12,8 +12,8 @@ import WordFadeIn from "./ui/WordFallIn";
 
 export function Introduction() {
   return (
-    <div className=" text-center w-full">
-      <div className="flex flex-col md:flex-row h-full sm:items-center justify-center ">
+    <div id="home" className=" text-center w-full">
+      <div className="flex flex-col lg:flex-row h-full sm:items-center justify-center ">
         <div className="my-6 p-5 ">
           <div className="text-4xl md:text-5xl font-bold py-1">
             <WordPullUp
@@ -45,21 +45,29 @@ export function Introduction() {
           <div className="space-y-2">
             <Dock>
               <DockIcon>
-                <Link href="/github.com">
+                <Link href="https://github.com/Karansenpai">
                   <Icons.gitHub className="h-6 w-6" />
                 </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.googleDrive className="h-6 w-6" />
+              <Link href="mailto:karandeoli444.gmail.gmail">
+                <Icons.Gmail className="h-7 w-7" />
+              </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.notion className="h-6 w-6" />
+                <Link href= "https://www.linkedin.com/in/karan-deoli-36a3ab212/i">
+                <Icons.LinkedIn className="h-6 w-6" />
+                </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.openai className="h-6 w-6" />
+                <Link href="https://x.com/deoli_kara33117">
+                  <Icons.X className="h-10 w-10" />
+                </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.whatsapp className="h-6 w-6" />
+                <Link href="https://www.instagram.com/deoli_karan/">
+                  <Icons.Insta className="h-6 w-6" />
+                </Link>
               </DockIcon>
             </Dock>
 

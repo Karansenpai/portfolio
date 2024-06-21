@@ -17,12 +17,20 @@ const navItems = [
   },
   {
     name: "About",
-    link: "/about",
+    link: "#about",
   },
   {
     name: "Contact",
-    link: "/contact",
+    link: "#contact",
   },
+  {
+    name: "Projects",
+    link: "#projects",
+  },
+  {
+    name: "Profiles",
+    link: "#coding-profile",
+  }
 ];
 
 export default function RootLayout({
