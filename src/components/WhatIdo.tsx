@@ -7,7 +7,10 @@ import codingPerson from "../assets/lottie/codingPerson.json";
 import { FadeText } from "./ui/FadeText";
 const WhatIdo = () => {
   return (
-    <div id="about" className="flex flex-col lg:flex-row justify-center items-center relative overflow-hidden">
+    <div
+      id="about"
+      className="flex flex-col lg:flex-row justify-center items-center relative overflow-hidden"
+    >
       <div className="flex flex-col flex-1 relative justify-center items-center">
         <div className="h-[600px] w-[600px] relative down-[4rem]">
           <DisplayLottie animationData={codingPerson} />
@@ -26,7 +29,7 @@ const WhatIdo = () => {
             className="text-md sm:text-xl font-bold text-black dark:text-white p-3"
             direction="left"
             framerProps={{
-              show: { transition: { delay:1  } },
+              show: { transition: { delay: 1 } },
             }}
             text="⚡Experience with databases such as MySQL, PostgreSQL, MongoDB."
           />
@@ -44,13 +47,7 @@ const WhatIdo = () => {
             framerProps={{
               show: { transition: { delay: 1 } },
             }}
-            text="⚡Solving algorithmic challenges to enhance skills
-
-
-
-
-
-"
+            text="⚡Solving algorithmic challenges to enhance skills"
           />
         </div>
       </div>
@@ -61,7 +58,7 @@ const WhatIdo = () => {
           </h1>
         </div>
         <div className="flex justify-center text-center ">
-          <TypewriterEffectSmooth  words={whatido} />
+          <TypewriterEffectSmooth words={whatido} />
         </div>
         <div className="flex  justify-center my-5">
           <TechStack />

@@ -45,21 +45,29 @@ export function Introduction() {
           <div className="space-y-2">
             <Dock>
               <DockIcon>
-                <Link href="/github.com">
+                <Link href="https://github.com/Karansenpai">
                   <Icons.gitHub className="h-6 w-6" />
                 </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.googleDrive className="h-6 w-6" />
+              <Link href="mailto:karandeoli444.gmail.gmail">
+                <Icons.Gmail className="h-7 w-7" />
+              </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.notion className="h-6 w-6" />
+                <Link href= "https://www.linkedin.com/in/karan-deoli-36a3ab212/i">
+                <Icons.LinkedIn className="h-6 w-6" />
+                </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.openai className="h-6 w-6" />
+                <Link href="https://x.com/deoli_kara33117">
+                  <Icons.X className="h-10 w-10" />
+                </Link>
               </DockIcon>
               <DockIcon>
-                <Icons.whatsapp className="h-6 w-6" />
+                <Link href="https://www.instagram.com/deoli_karan/">
+                  <Icons.Insta className="h-6 w-6" />
+                </Link>
               </DockIcon>
             </Dock>
 

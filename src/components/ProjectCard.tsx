@@ -13,6 +13,9 @@ interface ProjectCardProps {
   Photo: string;
   LiveLink?: string;
   GithubLink: string;
+  projectIcons: {
+    iconLists: string[];
+  }
 }
 export function ProjectCard({
   Title,
@@ -20,6 +23,7 @@ export function ProjectCard({
   Photo,
   LiveLink,
   GithubLink,
+  projectIcons,
 }: ProjectCardProps) {
   return (
     <CardContainer className="inter-var">
@@ -48,7 +52,7 @@ export function ProjectCard({
           {Description}
         </CardItem>
         <CardItem className="flex flex-row gap-3 ">
-          {project1Icons.iconLists.map((icon:string, index:number) => (
+          {projectIcons.iconLists.map((icon:string, index:number) => (
             <div
               key={index}
               className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"

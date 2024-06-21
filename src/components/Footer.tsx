@@ -34,13 +34,13 @@ const Footer = () => {
       </div>
 
       <div>
-        <div className="flex  w-full justify-between p-5 space-x-4">
-          <div>
-            <p className="md:text-base text-sm md:font-normal font-light">
+        <div className="flex w-full justify-around md:justify-between  items-center gap-2 p-5 overflow-hidden">
+          <div className="">
+            <p className="md:text-base text-sm md:font-normal font-semibold p-2 m-2 ">
               Copyright © 2024 Karan Deoli
             </p>
           </div>
-          <div className="flex items-center md:gap-3 gap-7 p-2 space-x-5">
+          <div className="flex items-center md:gap-3 space-x-5">
             <Link href="https://github.com/Karansenpai">
               <VscGithubInverted className="size-7" />
             </Link>
@@ -52,7 +52,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex text-center justify-center">
+        <div className="flex text-center justify-center p-2 m-2 break-words text-wrap">
           Code is like humor. When you have to explain it, it&apos;s bad&quot; —
           Cory House
         </div>

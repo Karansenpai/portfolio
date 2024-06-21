@@ -45,9 +45,15 @@ export const whatido = [
 
 
 export const project1Icons = {
-  iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+  iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongodb.svg", "/nodejs.svg"],
 }
 
+export const project2Icons = {
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongodb.svg", "/NextAuth.svg", "/nodejs.svg"],
+}
+export const project3Icons = {
+  iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/mongodb.svg", "/nodejs.svg"],
+}
 export const socialMedia = [
   {
     id: 1,
@@ -61,4 +67,5 @@ export const socialMedia = [
     id: 3,
     img: "/link.svg",
   },
+
 ];
