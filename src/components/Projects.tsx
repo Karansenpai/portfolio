@@ -4,7 +4,7 @@ import WordPullUp from "./ui/WordPullUp";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full">
+    <div id="projects" className="flex flex-col justify-center items-center w-full">
       <div>
         <WordPullUp
           className="text-4xl  font-bold tracking-[-0.02em] md:text-5xl md:leading-[5rem] text-blue-500 dark:text-blue-500 capitalize p-2"

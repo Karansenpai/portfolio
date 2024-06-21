@@ -33,14 +33,9 @@ export const slugs = [
 
 
 export const whatido = [
+
   {
-    text: "Crazy",
-  },
-  {
-    text: "Full Stack Developer",
-  },
-  {
-    text: "who wants to explore every",
+    text: "Wants to explore every",
   },
   {
     text: "Tech Stack.",
@@ -52,3 +47,18 @@ export const whatido = [
 export const project1Icons = {
   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
 }
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+  },
+];

@@ -31,7 +31,7 @@ export function CodingProfileCard({
           />
         </div>
 
-        <div className="flex flex-col py-3 my-3 justify-center text-center">
+        <div className="flex flex-col justify-center text-center">
           <h1 className="font-bold text-xl mb-4 relative z-50 flex justify-center">
             {title}
           </h1>

@@ -5,20 +5,20 @@ import { CodingProfileCard } from "./CodingProfileCard";
 
 const CodingProfile = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-3 gap-5 m-3">
+    <div id="coding-profile" className="flex flex-col justify-center items-center p-3 gap-5 m-3">
       <div>
         <SparklesText
           text="Coding Profile"
           className="text-6xl font-bold text-center capitalize "
         />
       </div>
-      <div className="flex flex-col md:flex-row gap-[5rem] p-2">
+      <div className="flex flex-col lg:flex-row gap-[5rem] p-2 flex-wrap justify-center">
         <CodingProfileCard
           CodingLink="https://codeforces.com/profile/KDSenpai"
           maxRating="1421"
           title="Codeforces"
           rank="Specialist"
-          photo="/codeforces.jpg"
+          photo="/Codeforces.jpg"
         />
 
         <CodingProfileCard
@@ -26,7 +26,7 @@ const CodingProfile = () => {
           maxRating="1787"
           title="CodeChef"
           rank="3* Codechef"
-          photo="/codechef.png"
+          photo="/Codechef.png"
         />
 
         <CodingProfileCard
@@ -34,7 +34,7 @@ const CodingProfile = () => {
           maxRating="1723"
           title="Leetcode"
           rank="Knight Soon"
-          photo="/leetcode.png"
+          photo="/Leetcode.png"
         />
 
         <CodingProfileCard
@@ -42,7 +42,7 @@ const CodingProfile = () => {
           maxRating="700"
           title="Atcoder"
           rank="7 kyu"
-          photo="/Atcoder.png"
+          photo="/Atcoder.jpeg"
         />
 
         {/* <CodingProfileCard/>

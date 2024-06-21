@@ -12,8 +12,8 @@ import WordFadeIn from "./ui/WordFallIn";
 
 export function Introduction() {
   return (
-    <div className=" text-center w-full">
-      <div className="flex flex-col md:flex-row h-full sm:items-center justify-center ">
+    <div id="home" className=" text-center w-full">
+      <div className="flex flex-col lg:flex-row h-full sm:items-center justify-center ">
         <div className="my-6 p-5 ">
           <div className="text-4xl md:text-5xl font-bold py-1">
             <WordPullUp
