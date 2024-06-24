@@ -4,7 +4,14 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { FloatingNav } from "@/components/ui/floatingNavbar";
 const inter = Inter({ subsets: ["latin"] });
-import { IconHome, IconMessage, IconUser, IconSchool, IconBriefcase, IconBrandGithub } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconMessage,
+  IconUser,
+  IconSchool,
+  IconBriefcase,
+  IconBrandGithub,
+} from "@tabler/icons-react";
 export const metadata: Metadata = {
   title: "Karan Portfolio",
   description: "Developer Portfolio",
@@ -13,26 +20,27 @@ export const metadata: Metadata = {
 const navItems = [
   {
     name: "Home",
-    link: "/",
+    link: "#home",
     icon: <IconHome className="h-6 w-6 text-neutral-500 dark:text-white" />,
   },
   {
     name: "About",
     link: "#about",
-    icon: <IconBriefcase className="h-6 w-6 text-neutral-500 dark:text-white" />,
-    
+    icon: (
+      <IconBriefcase className="h-6 w-6 text-neutral-500 dark:text-white" />
+    ),
   },
   {
     name: "Contact",
     link: "#contact",
-    icon: (
-      <IconMessage className="h-6 w-6 text-neutral-500 dark:text-white" />
-    ),
+    icon: <IconMessage className="h-6 w-6 text-neutral-500 dark:text-white" />,
   },
   {
     name: "Projects",
     link: "#projects",
-    icon: <IconBrandGithub className="h-6 w-6 text-neutral-500 dark:text-white" />
+    icon: (
+      <IconBrandGithub className="h-6 w-6 text-neutral-500 dark:text-white" />
+    ),
   },
   {
     name: "Profiles",
@@ -43,7 +51,7 @@ const navItems = [
     name: "Education",
     link: "#education",
     icon: <IconSchool className="h-6 w-6 text-neutral-500 dark:text-white" />,
-  }
+  },
 ];
 
 export default function RootLayout({
@@ -65,11 +73,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="font-semibold text-nowrap">
+          <div className="font-semibold text-nowrap scroll-smooth">
             <FloatingNav navItems={navItems} />
           </div>
-          <div className = "absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800 ">
-          {children}
+          <div className="absolute inset-0 bg-dot-thick-neutral-300 dark:bg-dot-thick-neutral-800 ">
+            {children}
           </div>
         </ThemeProvider>
       </body>

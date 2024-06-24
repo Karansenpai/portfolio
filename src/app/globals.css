@@ -56,7 +56,8 @@
 @layer base {
   * {
     @apply border-border;
-    @apply box-border
+    @apply box-border;
+    @apply scroll-smooth;
   }
   body {
     @apply bg-background text-foreground;
