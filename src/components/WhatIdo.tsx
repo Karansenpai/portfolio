@@ -9,10 +9,10 @@ const WhatIdo = () => {
   return (
     <div
       id="about"
-      className="flex flex-col lg:flex-row justify-center items-center relative overflow-hidden"
+      className="flex flex-col lg:flex-row justify-center items-center relative overflow-hidden my-[1rem] sm:my-[6rem]"
     >
       <div className="flex flex-col flex-1 relative justify-center items-center">
-        <div className="h-[600px] w-[600px] relative down-[4rem]">
+        <div className="w-[350px] h-[400px] sm:w-[600px] sm:h-[600px] relative down-[4rem]">
           <DisplayLottie animationData={codingPerson} />
         </div>
 
@@ -51,16 +51,16 @@ const WhatIdo = () => {
           />
         </div>
       </div>
-      <div className="flex-col my-[5rem] flex-1">
+      <div className="flex-col  flex-1">
         <div className="flex flex-2 text-center justify-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mt-10">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center mt-10">
             What I Do
           </h1>
         </div>
         <div className="flex justify-center text-center ">
           <TypewriterEffectSmooth words={whatido} />
         </div>
-        <div className="flex  justify-center my-5">
+        <div className="flex justify-center my-5">
           <TechStack />
         </div>
       </div>
