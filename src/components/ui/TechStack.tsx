@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function TechStack() {
   return (
-    <div className="relative flex h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border  md:shadow-xl">
+    <div className="relative flex w-[400px] h-[450px] sm:w-[600px] sm:h-[600px] max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border  md:shadow-xl">
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Stack
       </span>
@@ -16,7 +16,7 @@ export function TechStack() {
         delay={5}
         radius={80}
       >
-        <Image src="/tail.svg" height={50} width={50} alt="" />
+        <Image src="/tail.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
       <OrbitingCircles
         className="h-[40px] w-[40px] border-none bg-transparent"
@@ -24,7 +24,7 @@ export function TechStack() {
         delay={10}
         radius={80}
       >
-        <Image src="/dock.svg" height={50} width={50} alt="" />
+        <Image src="/dock.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
       <OrbitingCircles
         className="h-[40px] w-[40px] border-none bg-transparent"
@@ -32,7 +32,7 @@ export function TechStack() {
         delay={15}
         radius={80}
       >
-        <Image src="/javascript.svg" height={50} width={50} alt="" />
+        <Image src="/javascript.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
       <OrbitingCircles
         className="h-[40px] w-[40px] border-none bg-transparent"
@@ -40,9 +40,8 @@ export function TechStack() {
         delay={20}
         radius={80}
       >
-        <Image src="/NextAuth.svg" height={50} width={50} alt="" />
+        <Image src="/NextAuth.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
-      
 
       {/* Outer Circles (reverse) */}
       <OrbitingCircles
@@ -61,7 +60,7 @@ export function TechStack() {
         delay={10}
         reverse
       >
-        <Image src="/re.svg" height={50} width={50} alt="" />
+        <Image src="/re.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
       <OrbitingCircles
         className="h-[50px] w-[50px] border-none bg-transparent"
@@ -70,7 +69,7 @@ export function TechStack() {
         delay={15}
         reverse
       >
-        <Image src="/mongodb.svg" height={50} width={50} alt="" />
+        <Image src="/mongodb.svg" height={45} width={45} alt="" />
       </OrbitingCircles>
       <OrbitingCircles
         className="h-[50px] w-[50px] border-none bg-transparent"
@@ -79,7 +78,7 @@ export function TechStack() {
         delay={20}
         reverse
       >
-        <Icons.NextJs />
+        <Image src="/next.png" height={45} width={45} alt="" />
       </OrbitingCircles>
     </div>
   );

@@ -18,7 +18,7 @@ const Projects = () => {
 
       <div
         className="flex flex-wrap w-full justify-center gap-x-[10rem]
-      relative"
+      relative "
       >
         <ProjectCard
           Description="Developed a full-stack clone of Thread, replicating key features of the popular social media platform"

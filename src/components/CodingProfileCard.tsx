@@ -32,21 +32,21 @@ export function CodingProfileCard({
         </div>
 
         <div className="flex flex-col justify-center text-center">
-          <h1 className="font-bold text-xl mb-4 relative z-50 flex justify-center">
+          <h1 className="font-bold text-xl mb-4 relative z-50 flex justify-center capitalize">
             {title}
           </h1>
 
-          <h1 className="font-bold text-xl mb-4 relative z-50">
+          <h1 className="font-bold text-xl mb-4 relative z-50 capitalize">
             Max Rating: {maxRating}
           </h1>
 
           {rank && (
-            <h1 className="font-bold text-xl mb-4 relative z-50">{rank}</h1>
+            <h1 className="font-bold text-xl mb-4 relative z-50 capitalize">{rank}</h1>
           )}
 
           <Link
             href={CodingLink}
-            className="border px-4 py-1 rounded-lg  border-gray-500 "
+            className="border px-4 py-1 rounded-lg  border-gray-500"
           >
             Visit
           </Link>

@@ -8,11 +8,11 @@ import { Card } from "./ui/Card";
 
 export function Education() {
   return (
-    <div className="flex flex-col justify-center">
+    <div id="education" className="flex flex-col justify-center">
       <div>
         <SparkelText
           text="Education"
-          className="text-6xl font-bold text-center capitalize "
+          className="text-4xl md:text-5xl font-bold text-center capitalize "
         />
       </div>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center  w-full gap-4 mx-auto px-8">

@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import { FloatingNav } from "@/components/ui/floatingNavbar";
 const inter = Inter({ subsets: ["latin"] });
-
+import { IconHome, IconMessage, IconUser, IconSchool, IconBriefcase, IconBrandGithub } from "@tabler/icons-react";
 export const metadata: Metadata = {
   title: "Karan Portfolio",
   description: "Developer Portfolio",
@@ -14,22 +14,35 @@ const navItems = [
   {
     name: "Home",
     link: "/",
+    icon: <IconHome className="h-6 w-6 text-neutral-500 dark:text-white" />,
   },
   {
     name: "About",
     link: "#about",
+    icon: <IconBriefcase className="h-6 w-6 text-neutral-500 dark:text-white" />,
+    
   },
   {
     name: "Contact",
     link: "#contact",
+    icon: (
+      <IconMessage className="h-6 w-6 text-neutral-500 dark:text-white" />
+    ),
   },
   {
     name: "Projects",
     link: "#projects",
+    icon: <IconBrandGithub className="h-6 w-6 text-neutral-500 dark:text-white" />
   },
   {
     name: "Profiles",
     link: "#coding-profile",
+    icon: <IconUser className="h-6 w-6 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Education",
+    link: "#education",
+    icon: <IconSchool className="h-6 w-6 text-neutral-500 dark:text-white" />,
   }
 ];
 
