@@ -87,7 +87,9 @@ export function Introduction() {
 
               <Link href="#contact" className={buttonVariants()}>
                 <div className="text-md sm:text-xl md:text-2xl font-semibold">
-                  My Resume
+                  <Link href= "https://drive.google.com/file/d/1BpwHdOBXUWZqMoYuVThz-_T_2J_fCXya/view">
+                   My Resume
+                  </Link>
                 </div>
               </Link>
             </div>

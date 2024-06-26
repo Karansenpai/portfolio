@@ -16,7 +16,7 @@ export function Education() {
         />
       </div>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center  w-full gap-4 mx-auto px-8">
-        <Card title="IIIT Allahabad' 2026" icon={<AceternityIcon />} course="Course B.Tech" Branch="Information Technology" cgpa="CGPA: 8.61/10 (Till 3rd Sem)" logo ={"/IIITA.png"}>
+        <Card title="IIIT Allahabad' 2026" icon={<AceternityIcon />} course="Course B.Tech" Branch="Information Technology" cgpa="CGPA: 8.82/10 (Till 4th Sem)" logo ={"/IIITA.png"}>
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
