@@ -92,6 +92,16 @@ const CodingProfile = () => {
           />
         )}
 
+        {!codeforcesData.result && (
+          <CodingProfileCard
+            CodingLink="https://codeforces.com/profile/KDSenpai"
+            maxRating={"1443"}
+            title="Codeforces"
+            rank={"Specialist"}
+            photo="/Codeforces.jpg"
+          />
+        )}
+
         <CodingProfileCard
           CodingLink="https://www.codechef.com/users/kdsenpai"
           maxRating={codechefData}
